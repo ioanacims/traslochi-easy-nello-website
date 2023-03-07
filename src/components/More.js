@@ -5,12 +5,14 @@ export const More = () => {
   return (
     <div id="scopri">
       <div>
-        <div className="hero min-h-screen bg-base-200 p-8">
+        <div className="hero min-h-screen bg-base-200 ">
           <div className="hero-content flex-col lg:flex-row">
             <img
               alt="immagine del camion di Nello"
-              className="max-w-sm shadow-2xl rounded-3xl" src={Camion} />
-            <div className="ml-7">
+              className="max-w-sm shadow-2xl rounded-3xl bg-base-200"
+              src={Camion}
+            />
+            <div className="ml-3">
               <h1 className="text-5xl font-bold">
                 Vuoi costruire la tua Visione?
               </h1>
@@ -46,9 +48,9 @@ export const More = () => {
                 </li>
               </ul>
               <a href="#contatti">
-              <button className="btn btn-primary mt-8">
-                Contattaci per una consulenza gratuita
-              </button>
+                <button className="btn btn-primary mt-8">
+                  Contattaci per una consulenza
+                </button>
               </a>
             </div>
           </div>

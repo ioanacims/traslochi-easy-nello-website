@@ -5,7 +5,7 @@ export const Services = () => {
     <div id="servizi" className="flex justify-center items-center bg-white">
       <div className="lg:flex bg-white justify-center">
         <br />
-        <div className="card w-96 bg-base-100 shadow-xl m-8">
+        <div className="car bg-base-100 shadow-xl m-8 rounded-3xl">
           <div className="card-body">
             <h2 className="card-title">Traslochi</h2>
             <p>
@@ -21,7 +21,7 @@ export const Services = () => {
             />
           </figure>
         </div>
-        <div className="card w-96 bg-base-100 shadow-xl m-8">
+        <div className="car bg-base-100 shadow-xl m-8 rounded-3xl">
           <div className="card-body">
             <h2 className="card-title">Sgomberi</h2>
             <p>
@@ -37,7 +37,7 @@ export const Services = () => {
             />
           </figure>
         </div>
-        <div className="card w-96 bg-base-100 shadow-xl m-8">
+        <div className="car bg-base-100 shadow-xl m-8 rounded-3xl">
           <div className="card-body">
             <h2 className="card-title">Carico e scarico merci</h2>
             <p>
