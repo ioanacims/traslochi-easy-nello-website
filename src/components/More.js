@@ -5,11 +5,11 @@ export const More = () => {
   return (
     <div id="scopri">
       <div>
-        <div className="hero min-h-screen bg-base-200 ">
+        <div className="hero min-h-screen bg-base-200 py-16">
           <div className="hero-content flex-col lg:flex-row">
             <img
               alt="immagine del camion di Nello"
-              className="max-w-sm shadow-2xl rounded-3xl bg-base-200"
+              className="shadow-2xl rounded-3xl bg-base-200"
               src={Camion}
             />
             <div className="ml-3">
