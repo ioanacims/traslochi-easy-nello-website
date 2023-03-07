@@ -1,4 +1,7 @@
 import React from 'react'
+import Rent from '../media/rent.png'
+import Contract from '../media/contract.png'
+import Cam from '../media/cam.png'
 
 export const Service = () => {
   return (
@@ -10,7 +13,7 @@ export const Service = () => {
         <div className="card w-96 bg-base-100 shadow-xl">
           <figure>
             <img
-              src="https://www.borromeotraslochi.com/wp-content/uploads/2020/11/trasloco-coronavirus.jpg"
+              src={Contract}
               alt="Servizio Traslochi Torino e in tutta Italia"
             />
           </figure>
@@ -33,7 +36,7 @@ export const Service = () => {
         <div className="card w-96 bg-base-100 shadow-xl">
           <figure>
             <img
-              src="https://www.borromeotraslochi.com/wp-content/uploads/2020/11/trasloco-coronavirus.jpg"
+              src={Rent}
               alt="Servizio Traslochi Torino e in tutta Italia"
             />
           </figure>
@@ -55,7 +58,7 @@ export const Service = () => {
         <div className="card w-96 bg-base-100 shadow-xl">
           <figure>
             <img
-              src="https://www.borromeotraslochi.com/wp-content/uploads/2020/11/trasloco-coronavirus.jpg"
+              src={Cam}
               alt="Servizio Traslochi Torino e in tutta Italia"
             />
           </figure>
