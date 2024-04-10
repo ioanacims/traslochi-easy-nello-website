@@ -1,7 +1,6 @@
-import React from 'react'
-import Instagram from '../media/ig.svg'
-import Facebook from '../media/fb.svg'
-
+import React from "react";
+import Instagram from "../media/ig.svg";
+import Facebook from "../media/fb.svg";
 
 export const Contact = () => {
   return (
@@ -14,7 +13,6 @@ export const Contact = () => {
         <div>
           <span className="footer-title">CONTATTI</span>
           <p>(+39) 377 344 8109</p>
-          <p>(+39) 380 775 4828</p>
         </div>
         <div>
           <span className="footer-title">SOCIAL</span>
@@ -53,5 +51,5 @@ export const Contact = () => {
         </div>
       </footer>
     </div>
-  )
-}
+  );
+};
