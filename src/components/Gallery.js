@@ -29,34 +29,34 @@ export const Gallery = () => {
           <img
             className="w-96 h-80 mt-6"
             src={require("../media/gallery/26.jpg")}
-            alt="Image 1"
+            alt="work transition"
           />
           <img
             className="w-96 h-80 mt-6"
             src={require("../media/gallery/12.jpg")}
-            alt="Image 1"
+            alt="beautiful kitchen"
           />
           <img
             className="w-96 h-80 mt-6"
             src={require("../media/gallery/15.jpg")}
-            alt="Image 1"
+            alt="well work done"
           />
         </div>
         <div className="flex justify-around content-center flex-wrap">
           <img
             className="w-96 h-80 mt-6"
             src={require("../media/gallery/17.jpg")}
-            alt="Image 1"
+            alt="another one of my works"
           />
           <img
             className="w-96 h-80 mt-6"
             src={require("../media/gallery/5.jpg")}
-            alt="Image 1"
+            alt="incredible team work"
           />
           <img
             className="w-96 h-80 mt-6"
             src={require("../media/gallery/10.jpg")}
-            alt="Image 1"
+            alt="amazing job"
           />
         </div>
       </div>
