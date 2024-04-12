@@ -11,17 +11,17 @@ export const Gallery = () => {
           <img
             className="w-96 h-80 mt-6"
             src={require("../media/gallery/3.jpg")}
-            alt="Image 1"
+            alt="Lavoro di costruzione"
           />
           <img
             className="w-96 h-80 mt-6"
             src={require("../media/gallery/8.jpg")}
-            alt="Image 1"
+            alt="Progetto completato"
           />
           <img
             className="w-96 h-80 mt-6"
             src={require("../media/gallery/25.jpg")}
-            alt="Image 1"
+            alt="Dettaglio di costruzione"
           />
         </div>
         {/* second */}
@@ -29,34 +29,34 @@ export const Gallery = () => {
           <img
             className="w-96 h-80 mt-6"
             src={require("../media/gallery/26.jpg")}
-            alt="work transition"
+            alt="Transizione del lavoro"
           />
           <img
             className="w-96 h-80 mt-6"
             src={require("../media/gallery/12.jpg")}
-            alt="beautiful kitchen"
+            alt="Cucina completata"
           />
           <img
             className="w-96 h-80 mt-6"
             src={require("../media/gallery/15.jpg")}
-            alt="well work done"
+            alt="Dettaglio di finitura"
           />
         </div>
         <div className="flex justify-around content-center flex-wrap">
           <img
             className="w-96 h-80 mt-6"
             src={require("../media/gallery/17.jpg")}
-            alt="another one of my works"
+            alt="Progetto completato"
           />
           <img
             className="w-96 h-80 mt-6"
             src={require("../media/gallery/5.jpg")}
-            alt="incredible team work"
+            alt="Team di lavoro"
           />
           <img
             className="w-96 h-80 mt-6"
             src={require("../media/gallery/10.jpg")}
-            alt="amazing job"
+            alt="Realizzazione di un lavoro"
           />
         </div>
       </div>
